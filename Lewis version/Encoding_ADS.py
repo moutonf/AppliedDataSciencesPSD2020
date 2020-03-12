@@ -1,5 +1,6 @@
 from string import ascii_lowercase, ascii_uppercase, digits, punctuation
 from random import randrange
+from webbrowser import open as open_url
 
 
 def caesar_crypt(text_in, task_select="", shift=None):
@@ -100,4 +101,7 @@ print("Result of encryption: ", encrypted_message)
 
 decrypted_message = caesar_crypt(encrypted_message, "D", random_int)
 
+print("This is how to write commits.")
 print("Result of decryption: ", decrypted_message)
+
+open_url("https://chris.beams.io/posts/git-commit/")
