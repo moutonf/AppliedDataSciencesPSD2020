@@ -101,7 +101,7 @@ print("Result of encryption: ", encrypted_message)
 
 decrypted_message = caesar_crypt(encrypted_message, "D", random_int)
 
-print("This is how to write commits.")
 print("Result of decryption: ", decrypted_message)
 
+print("This is how to write commits.")
 open_url("https://chris.beams.io/posts/git-commit/")
